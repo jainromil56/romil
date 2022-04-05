@@ -1,5 +1,6 @@
 import React from "react";
 import {FiArrowRight} from 'react-icons/fi'
+import romil from '../images/romil.png'
 
 const LandingPage = () => {
   return (
@@ -26,8 +27,8 @@ const LandingPage = () => {
             </div>
             <img
               alt="ecommerce"
-              class="lg:w-1/2 w-full mx-10 md:mx-0 lg:h-auto h-64 object-cover object-center rounded"
-              src="https://dummyimage.com/400x400"
+              class="lg:w-1/4 w-full mx-10 md:mx-0 lg:h-auto h-64 object-cover object-center rounded"
+              src={romil}
             />
           </div>
         </div>
